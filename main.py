@@ -6,7 +6,7 @@ import os
 # Dados da API (preencha com os seus)
 api_id = int(os.getenv("API_ID"))
 api_hash = os.getenv("API_HASH")
-palavras_chave = ['cupom mercado livre']
+palavras_chave = ['cupom mercado livre', 'firetv', 'fire tv']
 
 # Nome da sessão (será salvo como um arquivo .session no replit)
 client = TelegramClient('monitor_bot_session', api_id, api_hash)
